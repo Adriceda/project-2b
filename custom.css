@@ -1,0 +1,35 @@
+.section-profile{
+    margin-top: 80px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 80px;
+
+}
+
+.section-profile .profile-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+    min-height: 500px;
+
+}
+
+.section-profile .profile-item p{
+    height: 100px;
+    overflow-y: hidden;
+}
+
+.section-profile .profile-item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    margin-bottom: 30px;
+}
+
+.sectio-ads{
+    margin-top: 80px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 80px;
+}
