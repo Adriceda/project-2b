@@ -33,3 +33,39 @@
     border-bottom: 1px solid #dedede;
     padding-bottom: 80px;
 }
+
+.sectio-ads .ads-text{
+    text-align: center;
+    color:#dedede;
+    margin-top: 40px;
+}
+
+
+.home-slider .img-slider{
+    width: 100vw;
+    height: 90vh;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    /* background: url(https://images.unsplash.com/photo-1665830025594-f850be11f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80) !important; */
+}
+
+@media only screen and (max-width: 768px) {
+        .sectio-ads .ads-text{
+            text-align: right;
+            color: #000;
+            margin-top: 0px;
+        }
+}
+
+@media only screen and (max-width: 991px) {
+    .home-slider .img-slider{
+        height: 100vh;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
